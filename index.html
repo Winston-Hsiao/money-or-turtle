@@ -1,0 +1,45 @@
+<!-- Money or Turtle? -->
+<!-- Author: Winston Hsiao, 2/22/22 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title> Money or Turtle? </title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- CSS Styling -->
+    <link href="styling.css" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <h1>Money or Turtle?</h1>
+    
+    <h2>You get $25,000 every time you click the button, <br>
+        but you have a 1% chance of turning into a turtle</h2>
+    
+    <h2>How many times will you click the button before stopping?</h2>
+    
+    <h2 id="balance">$0.00</h2>
+        
+    <div class="buttons">
+        <button id="button" onclick="clickButton()">Button</button>
+    </div>
+
+    <h2 id="count">You've clicked the button 0 times</h2>
+    
+    <h2 id="random"></h2> 
+    
+    <div class="reset">    
+        <button id="reset" onclick="reset()">Reset</button>    
+    </div>
+    
+    <p>Based on a tiktok/thought experiment</p>
+    
+    <script src="turtleButtonScript.js"></script>
+    
+</body>
+</html>
