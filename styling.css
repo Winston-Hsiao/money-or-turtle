@@ -1,0 +1,97 @@
+h1 {
+    text-align: center;
+    font-size: 2.6em;
+    font-weight: 220;
+    letter-spacing: 1px;
+    padding-top: 1%;
+    font-family: Verdana, sans-serif;
+    line-height: 30pt;
+}
+h2 {
+    text-align: center;
+    font-size: 1.9em;
+    font-weight: 220;
+    letter-spacing: 1px;
+    font-family: Verdana, sans-serif;
+    line-height: 33pt;
+}
+  
+body {
+    background-image: url(turtle-emoji.svg.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 30% 55%;
+}
+
+.buttons {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}  
+
+.reset {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}  
+
+#button {
+    background-color: #e86056; 
+    color: white; 
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    font-size: 1em;
+    font-family: Verdana, sans-serif;
+    box-shadow: 0 7px #999;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: #f44336;
+    color: white;
+    border: 3px solid black;
+    border-radius: 50%;
+    font-size: 1em;
+    font-family: Verdana, sans-serif;
+    cursor: pointer;
+}
+
+#button:active {
+    width: 145px;
+    height: 145px;
+    background-color: Red;
+    box-shadow: 0 3px #666;
+    transform: translateY(5px);
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+#reset {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    border-radius: 8%;
+    padding: 15px 20px;
+    font-size: 1em;
+    font-family: Verdana, sans-serif;
+    box-shadow: 0 5px #999;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: #555555;
+    color: white;
+    border-radius: 8%;
+    padding: 15px 20px;
+    font-size: 1em;
+    font-family: Verdana, sans-serif;
+}
+
+#reset:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(3px);
+    cursor: pointer;
+    margin-bottom: 5px;    
+}
